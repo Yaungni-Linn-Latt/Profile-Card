@@ -1,0 +1,82 @@
+body{
+  position: relative;
+  margin: 0;
+  background-color: #64C9CF;
+}
+
+.top-container{
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  float: left;
+  background-image: url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}
+
+.bot-container{
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  float: right;
+  right: 0;
+  background-image: url("../images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.card{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+  top: 150px;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-repeat:no-repeat;
+  background-position: top;
+  background-size: 500px;
+}
+
+img{
+  position: relative;
+  top: 150px;
+  left: 200px;
+  border: 5px solid white;
+  border-radius: 100%;
+}
+.name{
+  padding-top: 150px;
+  text-align: center;
+}
+.age{
+  color: grey;
+}
+
+.location{
+  text-align: center;
+  color: grey;
+}
+.figure{
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+}
+.fig-bar{
+  text-align: center;
+}
+.des-bar{
+  text-align: center;
+}
+.des{
+  display: inline-block;
+  width: 150px;
+}
+.bot-bar{
+  position: absolute;
+  width: 500px;
+  padding-top: 20px;
+  bottom: 30px;
+  border-top:2px solid #F6F6F6;
+}
